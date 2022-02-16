@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<style>
+html,body{
+height: 100%;
+overflow: hidden;
+margin-left: 0px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+}
+.btn-top{
+position: absolute;
+top: 50px;
+left: 50px;
+z-index: 999;
+}
+</style>
+</head>
+<body>
+<a href="book.pdf"><button class="main-btn btn-top" id="submit-btn" style="width:150px">返回小知识</button></a>
+<iframe src="book.pdf" style="border: 0; position: relative;" width="100%" height="100%" align="top"></iframe>
+</body>
+</html>
